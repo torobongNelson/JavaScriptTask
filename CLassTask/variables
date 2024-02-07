@@ -1,0 +1,12 @@
+var temp 
+var var1 = "jeep1";
+var var2 = "jeep2";
+var var3 = "jeep3"
+
+
+var temp = var1
+var var1 = var2
+var var2 = var3
+var var3 = temp
+
+console.log(var1,var2,var3);
